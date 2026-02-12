@@ -74,3 +74,41 @@ select {
 .heroicon {
   display: none;
 }
+.section1 {
+  display: flex;
+  gap: 120px;
+  margin-top: 50px;
+}
+.bottom_img {
+  z-index: 0;
+}
+.top_img {
+  z-index: 1;
+  position: absolute;
+  top: 950px;
+  left: 300px;
+}
+.textsec1 {
+  width: 45%;
+  margin-left: 80px;
+}
+.color_orange {
+  color: rgba(242, 190, 34, 1);
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.textsec1 h3 {
+  font-size: 30px;
+}
+.ful_text {
+  color: rgba(24, 18, 30, 1);
+  font-size: 16px;
+}
+.textsec1 button {
+  width: 200px;
+  height: 50px;
+  background-color: #1a3e3e;
+  color: white;
+  margin-top: 90px;
+  border-radius: 4px;
+}
