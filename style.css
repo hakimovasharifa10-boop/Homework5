@@ -227,7 +227,7 @@ select {
   flex-wrap: wrap;
   gap: 24px;
 }
-section5 button {
+.section5 button {
   background-color: #1a3e3e;
   padding: 10px 26px;
   display: block;
@@ -242,4 +242,43 @@ section5 button {
 }
 .text_sec5 h3 {
   font-size: 30px;
+}
+.left_sec6 {
+  width: 40%;
+}
+.right_sec6 {
+  width: 50%;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdfdfd;
+  border-radius: 6px;
+  padding: 30px 60px;
+  box-shadow: 0 4px 10px gray;
+}
+.form_sec6 {
+  display: flex;
+  gap: 10px;
+}
+.section6 button {
+  background-color: #1a3e3e;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+}
+.section6 h3 {
+  font-size: 26px;
+}
+label {
+  font-size: 16px;
+  font-weight: 600;
+}
+.email input {
+  margin: 10px 0px;
+  width: 300px;
+  height: 44px;
+  background-color: #f3f5f4;
+  border: none;
 }
