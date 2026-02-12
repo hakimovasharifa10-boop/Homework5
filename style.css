@@ -143,3 +143,22 @@ select {
   border-radius: 4px;
   border: none;
 }
+.images_sec3 {
+  display: flex;
+  gap: 14px;
+}
+.section3 {
+  text-align: center;
+}
+.section3 h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.section3 button {
+  background-color: #1a3e3e;
+  padding: 10px 30px;
+  color: white;
+  margin-top: 40px;
+  margin-right: 50px;
+  font-size: 18px;
+}
